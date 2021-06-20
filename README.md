@@ -97,7 +97,9 @@ La siguiente tabla muestra la lista de las funciones integradas para el tipo de 
 | **MIN()** | -- |
 | **NORMALIZE()** | -- |
 | **OCCURS()** | -- |
-| **PADL( ) | PADR( ) | PADC()** | -- |
+| **PADL()** | -- |
+| **PADR()** | -- |
+| **PADC()** | -- |
 | **PROPER()** | -- |
 | **RAT()** | -- |
 | **RATC()** | -- |
