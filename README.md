@@ -54,5 +54,72 @@ Como habrás notado **ALLTRIM()** ha perdido parte de su pelaje y ahora es solo 
 ```
 ¿Qué? ¿Quiere decir que Fénec será basado en cero? La respuesta corta es Sí. No vale la pena agregar más complejidad a la máquina virtual de Fénec para que trate los enumarables basados en 1 en lugar de cero que es su forma natural *(al menos en el lenguaje implementado).*
 
+## Lista de Funciones para String
+La siguiente tabla muestra la lista de las funciones integradas para el tipo de dato Character en Fox - String en Fénec. Iré actualizando el cuadro a medida que las vaya implementando en la máquina virtual.
 
-
+| Función Fox | Equivalente en Fénec |
+| ----------- | -------------------- |
+| **ALLTRIM()** | -- |
+| **ASC()** | -- |
+| **AT()** | -- |
+| **AT_C()** | -- |
+| **ATC()** | -- |
+| **ATCC()** | -- |
+| **ATCLINE()** | -- |
+| **ATLINE()** | -- |
+| **BETWEEN()** | -- |
+| **CHR()** | -- |
+| **CHRTRAN()** | -- |
+| **CHRTRANC()** | -- |
+| **CPCONVERT()** | -- |
+| **CTOD()** | -- |
+| **DIFFERENCE()** | -- |
+| **DTOC()** | -- |
+| **EMPTY()** | -- |
+| **EVALUATE()** | -- |
+| **GETWORDCOUNT()** | -- |
+| **GETWORDNUM()** | -- |
+| **INLIST()** | -- |
+| **ISALPHA()** | -- |
+| **ISDIGIT()** | -- |
+| **ISLEADBYTE()** | -- |
+| **ISLOWER()** | -- |
+| **ISUPPER()** | -- |
+| **LEFT()** | -- |
+| **LEFTC()** | -- |
+| **LEN()** | -- |
+| **LENC()** | -- |
+| **LIKE()** | -- |
+| **LIKEC()** | -- |
+| **LOWER()** | -- |
+| **LTRIM()** | -- |
+| **MAX()** | -- |
+| **MIN()** | -- |
+| **NORMALIZE()** | -- |
+| **OCCURS()** | -- |
+| **PADL( ) | PADR( ) | PADC()** | -- |
+| **PROPER()** | -- |
+| **RAT()** | -- |
+| **RATC()** | -- |
+| **RATLINE()** | -- |
+| **REPLICATE()** | -- |
+| **RIGHT()** | -- |
+| **RIGHTC()** | -- |
+| **RTRIM()** | -- |
+| **SOUNDEX()** | -- |
+| **SPACE()** | -- |
+| **STR()** | -- |
+| **STRCONV()** | -- |
+| **STRTOFILE()** | -- |
+| **STRTRAN()** | -- |
+| **STUFF()** | -- |
+| **STUFFC()** | -- |
+| **SUBSTR()** | -- |
+| **SUBSTRC()** | -- |
+| **TEXTMERGE()** | -- |
+| **TRANSFORM()** | -- |
+| **TRIM()** | -- |
+| **TXTWIDTH()** | -- |
+| **TYPE()** | -- |
+| **UPPER()** | -- |
+| **VARTYPE()** | -- |
