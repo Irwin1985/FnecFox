@@ -4,9 +4,9 @@ Mis pensamientos acerca del diseño que le daría al lenguage de programación *
 # Introducción
 Fui un programador de Visual FoxPro por 12 años y por eso le tengo un aprecio enorme a este noble lenguaje, debe ser así pues me dio de comer por más de una década y lo menos que puedo hacer por él es evolucionarlo.
 
-[**Fénec Fox**](https://es.wikipedia.org/wiki/Vulpes_zerda) encaja perfectamente con Fox porque es un pequeño zorro que habita en el desierto del Sahara; casi se podría decir que es el mismo Visual FoxPro desterrado al desierto por Microsoft. Esta coincidencia hizo clic en mi cabeza y he decidido darle un paso evolutivo a nuestro amado zorro, no será un paso enorme pues no tendrá muchas de sus cualidades originales *(por eso encaja con fénec)* pero si que tendrá nuevas habilidades que lo ayudarán a adaptarse a su nuevo entorno *(suena poético con Fénec)*.
+[**Fénec Fox**](https://es.wikipedia.org/wiki/Vulpes_zerda) encaja perfectamente con **Fox** porque es un pequeño zorro que habita en el desierto del **Sahara**; casi se podría decir que es el mismo **Visual FoxPro** desterrado al desierto por **Microsoft**. Esta coincidencia hizo *clic* en mi cabeza y he decidido darle un paso evolutivo a nuestro amado zorro, no será un paso enorme pues no tendrá muchas de sus cualidades originales *(por eso encaja con fénec)* pero si que tendrá nuevas habilidades que lo ayudarán a adaptarse a su nuevo entorno *(suena poético con Fénec)*.
 
-Tal vez no te guste Fénec pero creeme que el diseño que vas a ver aquí es lo más parecido a un Visual FoxPro evolucionado, así que comencemos a ver lo que deja, lo que hereda y lo que adquiere nuevo. Este diseño es meramente subjetivo así que la evolución de Fox está en mi mano pero no te preocupes porque conozco la gramática de Fox y la gramática de los lenguajes *"modernos"*.
+Tal vez no te guste **Fénec** pero creeme que el diseño que vas a ver aquí es lo más parecido a un **Visual FoxPro** evolucionado, así que comencemos a ver lo que deja, lo que hereda y lo que adquiere. Este diseño es meramente subjetivo así que la evolución de **Fox** está en mi mano pero no te preocupes porque conozco la gramática de Fox y la gramática de los lenguajes *"modernos"* por lo tanto me aseguraré que sus nuevos poderes lo ayuden a sobrevir en este nuevo ecosistema.
 
 
 ## Limando asperezas en el proceso evolutivo
@@ -16,7 +16,7 @@ Tal vez no te guste Fénec pero creeme que el diseño que vas a ver aquí es lo 
    verdad = true
    mentira = false
 ```
-- **Literales Arrays:** debo admitir que la sintaxis **DIMENSION arrayName()** nunca me gustó así que esta exclusión es personal *(al igual que todas)* 😋. Fénec adoptará la forma simplística que muchos lenguajes tienen pero que fue popularizada por Javascript.
+- **Literales Arrays:** debo admitir que la sintaxis **DIMENSION arrayName()** nunca me gustó así que esta exclusión es personal *(al igual que todas)* 😋. Fénec adoptará la forma simplística que muchos lenguajes tienen pero que fue popularizada por **Javascript**.
 
 ```Javascript
    numeros = [1, 2, 3]
@@ -40,6 +40,6 @@ Ahora veamos la versión en Fénec:
    ?nombre.len() // 8
    ?nombre.trim().len() // 5
 ```
-Como habrás notado ALLTRIM() ha perdito parte de su pelaje y ahora es solo TRIM() que una versión resumida y significa lo mismo, esta nueva versión quizá no te agrade mucho pero es una forma de mantener las funciones integradas adheridas a sus tipos. Es verdad que no previenen los errores porque si invocas la función alltrim() sobre un tipo numérico obtendrás un error de incompatibilidad de tipos pero esto tampoco tiene que ser una desventaja porque para eso existen los [linters](https://es.wikipedia.org/wiki/Lint) que ayudan a detectar errores en tiempo de diseño. De esto no te tienes que preocupar porque un linter se puede desarrollar e incrustar dentro de un editor propio de Fénec o un tercero como VsCode, Atom, etc.
+Como habrás notado **ALLTRIM()** ha perdido parte de su pelaje y ahora es solo **TRIM()** que es una versión resumida y significa lo mismo, esta nueva versión quizá no te agrade mucho pero es una forma de mantener las funciones integradas adheridas a sus tipos. Es verdad que no previenen los errores porque si invocas la función **trim()** sobre un tipo numérico obtendrás un error de incompatibilidad de tipos pero esto tampoco tiene que ser una desventaja porque para eso existen los **[linters]**(https://es.wikipedia.org/wiki/Lint) que ayudan a detectar errores en tiempo de diseño. De esto no tienes que preocuparte porque un linter se puede desarrollar e incrustar dentro de un editor bien sea propio de **Fénec** o un tercero como **VsCode, Atom, etc.**
 
-ALLTRIM() y LEN() son solo el abrebocas de todo el cambio que sufrirán las funciones integradas. Algunas las agradecerás y otras las lamentarás pero es por el bien de Fénec y su nuevo ecosistema.
+**ALLTRIM()** y **LEN()** son solo el abrebocas de todo el cambio que sufrirán las funciones integradas. Algunas las agradecerás y otras las lamentarás pero es por el bien de Fénec y su nuevo ecosistema.
