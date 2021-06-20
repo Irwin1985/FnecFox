@@ -54,9 +54,8 @@ Como habrás notado **ALLTRIM()** ha perdido parte de su pelaje y ahora es solo 
 ```
 ¿Qué? ¿Quiere decir que Fénec será basado en cero? La respuesta corta es Sí. No vale la pena agregar más complejidad a la máquina virtual de Fénec para que trate los enumarables basados en 1 en lugar de cero que es su forma natural *(al menos en el lenguaje implementado).*
 
-## Lista de Funciones para String
-La siguiente tabla muestra la lista de las funciones integradas para el tipo de dato Character en Fox - String en Fénec. Iré actualizando el cuadro a medida que las vaya implementando en la máquina virtual.
-
+## Lista de Funciones Fox y sus equivalentes en Fénec
+### Funciones de Character o String
 | Función Fox | Equivalente en Fénec |
 | ----------- | -------------------- |
 | **ALLTRIM()** | -- |
@@ -125,3 +124,58 @@ La siguiente tabla muestra la lista de las funciones integradas para el tipo de 
 | **TYPE()** | -- |
 | **UPPER()** | -- |
 | **VARTYPE()** | -- |
+
+### Funciones de Conversión de Datos
+| Función Fox | Equivalente en Fénec |
+| ----------- | -------------------- |
+| **CAST()** | -- |
+| **CHR()** | -- |
+| **CTOD()** | -- |
+| **CURVAL()** | -- |
+| **CURSORTOXML()** | -- |
+| **DTOC()** | -- |
+| **MTON()** | -- |
+| **NTOM()** | -- |
+| **NVL()** | -- |
+| **STR()** | -- |
+| **TEXTMERGE()** | -- |
+| **TRANSFORM()** | -- |
+| **TTOC()** | -- |
+| **TTOD()** | -- |
+| **VAL()** | -- |
+| **VARTYPE()** | -- |
+
+### Funciones de Fechas
+| Función Fox | Equivalente en Fénec |
+| ----------- | -------------------- |
+| **BETWEEN()** | -- |
+| **CDOW()** | -- |
+| **CMONTH()** | -- |
+| **CTOD()** | -- |
+| **CTOT()** | -- |
+| **DATE()** | -- |
+| **DATETIME( )** | -- |
+| **DAY()** | -- |
+| **DMY()** | -- |
+| **DOW()** | -- |
+| **DTOC()** | -- |
+| **DTOS()** | -- |
+| **DTOT()** | -- |
+| **EMPTY()** | -- |
+| **FDATE()** | -- |
+| **FTIME()** | -- |
+| **GOMONTH()** | -- |
+| **HOUR()** | -- |
+| **INLIST()** | -- |
+| **MAX()** | -- |
+| **MDY()** | -- |
+| **MIN()** | -- |
+| **MINUTE()** | -- |
+| **MONTH()** | -- |
+| **QUARTER()** | -- |
+| **SEC()** | -- |
+| **TIME()** | -- |
+| **TTOC()** | -- |
+| **TTOD()** | -- |
+| **WEEK()** | -- |
+| **YEAR()** | -- |
