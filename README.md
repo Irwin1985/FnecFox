@@ -1,4 +1,4 @@
-# FnecFox
+# FénecFox
 Mis pensamientos acerca del diseño que le daría al lenguage de programación **Fénec Fox**, el zorro que habita en el desierto del sahara.
 
 # Introducción
@@ -43,3 +43,16 @@ Ahora veamos la versión en Fénec:
 Como habrás notado **ALLTRIM()** ha perdido parte de su pelaje y ahora es solo **TRIM()** que es una versión resumida y significa lo mismo, esta nueva versión quizá no te agrade mucho pero es una forma de mantener las funciones integradas adheridas a sus tipos. Es verdad que no previenen los errores porque si invocas la función **trim()** sobre un tipo numérico obtendrás un error de incompatibilidad de tipos pero esto tampoco tiene que ser una desventaja porque para eso existen los **[linters]**(https://es.wikipedia.org/wiki/Lint) que ayudan a detectar errores en tiempo de diseño. De esto no tienes que preocuparte porque un linter se puede desarrollar e incrustar dentro de un editor bien sea propio de **Fénec** o un tercero como **VsCode, Atom, etc.**
 
 **ALLTRIM()** y **LEN()** son solo el abrebocas de todo el cambio que sufrirán las funciones integradas. Algunas las agradecerás y otras las lamentarás pero es por el bien de Fénec y su nuevo ecosistema.
+
+**SUBSTR()** está sentenciada a muerte porque lo mismo se puede lograr de la siguiente manera:
+```Javascript
+   // Versión Fox
+   nombre = "Fenec"
+   ?SUBSTR(nombre, 1, 3) // fen
+   // Versión Fénec
+   ?nombre[0:3]
+```
+¿Qué? ¿Quiere decir que Fénec será basado en cero? La respuesta corta es Sí. No vale la pena agregar más complejidad a la máquina virtual de Fénec para que trate los enumarables basados en 1 en luegar de cero que es su forma natural *(al menos en el lenguaje implementado).*
+
+
+
