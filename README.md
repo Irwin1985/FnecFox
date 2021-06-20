@@ -52,7 +52,7 @@ Como habrás notado **ALLTRIM()** ha perdido parte de su pelaje y ahora es solo 
    // Versión Fénec
    ?nombre[0:3]
 ```
-¿Qué? ¿Quiere decir que Fénec será basado en cero? La respuesta corta es Sí. No vale la pena agregar más complejidad a la máquina virtual de Fénec para que trate los enumarables basados en 1 en luegar de cero que es su forma natural *(al menos en el lenguaje implementado).*
+¿Qué? ¿Quiere decir que Fénec será basado en cero? La respuesta corta es Sí. No vale la pena agregar más complejidad a la máquina virtual de Fénec para que trate los enumarables basados en 1 en lugar de cero que es su forma natural *(al menos en el lenguaje implementado).*
 
 
 
