@@ -31,7 +31,7 @@ Veamos algunos ejemplos:
    ?LEN(nombre) && 8
    ?LEN(ALLTRIM(nombre)) && 5
 ```
-El ejemplo anterior está escrito en Visual FoxPro y muestra el uso de 2 funciones integradas: ALLTRIM() y LEN() donde la primera trabaja con Characters o String y la segunda con números.
+El ejemplo anterior está escrito en Visual FoxPro y muestra el uso de 2 funciones integradas: **ALLTRIM()** y **LEN()** donde la primera trabaja con Characters o String y la segunda con números.
 
 Ahora veamos la versión en Fénec:
 ```Javascript
